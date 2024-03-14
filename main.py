@@ -20,7 +20,7 @@ if __name__ == "__main__":
             move = chess.Move.from_uci(move)
             board.push(move)
     
-    print("Game Over")
+    print("Game Over!")
     if board.is_checkmate():
         print("Checkmate!")
     elif board.is_stalemate():
